@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:layout_marginTop="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/btn_puse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:layout_below="@+id/btn_play"
+        android:layout_alignLeft="@+id/btn_play"
+        android:layout_alignStart="@+id/btn_play"
+        android:layout_marginTop="51dp"
+        android:background="#fd883a"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:background="#f11414"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/btn_puse"
+        android:layout_alignLeft="@+id/btn_puse"
+        android:layout_alignStart="@+id/btn_puse" />
+
+
+</RelativeLayout>
